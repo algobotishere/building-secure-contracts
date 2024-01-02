@@ -16,5 +16,6 @@ contract MintableToken is Token {
         totalMinted += int256(value);
 
         balances[msg.sender] += value;
+        // require(totalMinted >= 0 && totalMinted <= totalMintable);
     }
 }

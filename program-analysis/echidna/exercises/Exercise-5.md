@@ -20,7 +20,7 @@ Join the team on Slack at: https://slack.empirehacking.nyc/ #ethereum
 
 The challenge is described here: https://www.damnvulnerabledefi.xyz/challenges/2.html. It is assumed that the reader is familiar with the challenge.
 
-## Goals
+## Goals 
 
 - Set up the testing environment with the correct contracts and necessary balances.
 - Analyze the "before" function in test/naive-receiver/naive-receiver.challenge.js to identify the required initial setup.

@@ -1,0 +1,8 @@
+cryticArgs: ["--solc-remaps", "@magic/=bar/ @foo/=baz/"]
+# 10,000 ether is placed in the NaiveReceiverEchidna contract.
+balanceContract: 1010000000000000000000
+# Allow for multi-abi use
+multi-abi: true
+cryticArgs:
+  - '--solc-remaps'
+  - '@openzeppelin/=../../../../node_modules/@openzeppelin/'
